@@ -1,10 +1,9 @@
-
 /**
  * Module dependencies.
  */
 
 var express = require('express')
-   , nano    = require('nano')('http://ap9xrtr3fmdwirnf:a2ip4lb95844z7mhfdc55a6h71pqttds@192.168.2.202:58044')
+   , nano    = require('nano')('http://ayavlr36yox4nyx4:ayvxglawir5hb5pgnebdg3ezyhifrg8f@172.16.2.167:50434')
    , app     = module.exports = express.createServer()
    , db_name = "t"
    , db      = nano.use(db_name);
